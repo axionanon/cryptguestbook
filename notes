@@ -1,0 +1,42 @@
+# Concomitant notes 
+
+The idea is to incorporate core python programming, CLI and light styling, basic encryption, beginner security principles.
+I like the idea of creating something with a quirky vibe..expanding on themes of encryption, secret messages, and a strange affinity yours truly has for hotels. 
+I still don’t know a lot about python but want to practice working with strings and basic encryption. My intention is to explore GUI as well, but we will see how that plays out. 
+
+Step 1 - Setting up the environment 
+Goals: Creating guestbook.py in Spyder. Add a styled welcome screen. Add a typing effect to make the intro feel like an old telegram / mysterious message. 
+
+We know we want to support text or colour based styling in this project, as well as banners or possibly a typing effect. So we start with importing terminal styling libraries. 
+We also want to slow down text output for aesthetic purposes, so we will try adding time.sleep() function at the beginning. 
+	colorama was already installed, but not pyfiglet, so we will go ahead and do it in the console with  !pip install pyfiglet.    (Successfully installed pyfiglet-1.0.2). - nice
+Now we begin in the .py file. 
+Importing the styles from colorant and pyfiglet we will use, as well as time function for the typing effect. Yeah and for now, thinking of init() like CSS. I know someone out there hates we are making this comparison but hey what can you do.
+<p>Labelling #typing effect function  #Art Banner using ASCII  #Welcome Message  and going in to fill the blanks </p>
+TYPING EFFECT
+Creating a loop
+	This is just a personal note: if we wanted to create typing effect for every 3 characters instead of 1, instead of ‘’ we would say
+	for i in range(0, len(text), 3):
+  	  print(text[i:i+3], end='', flush=True)
+  	  time.sleep(delay)
+As a reminder, we’re disabling default newline in command print(char, end='', flush=True),  to let characters appear one after another on the same line.
+So that’s why we have to say print() again at the end of the loop — manually adding newline as needed. 
+ASCII BANNER (may or may not want to change this later)
+Using pyfiglet and colorama. 
+For changing text colour we use Fore.  - modulate intensity with Style.BRIGHT , Style.DIM etc.
+Called up font names in console print(pyfiglet.FigletFont.getFonts()) but names meant nothing so viewed them on devhints. From there most appealing are calligraphy, colossal, roman, cursive, cyberlarge, rozzo, script, double,  smkeyboard, fender, faktur, gothic, kban, whimsy, mono9, bigmono12, bigmono9, smmono12. 
+**edit okay decided to remove this entirely
+Welcome Message
+End with \n to jump to next line. Otherwise print().
+Note: adding f”…” → changes the string so we can insert variables. For reference r"..." → raw string (keeps backslashes like \n literal). Don’t think r will be used in this project.
+Note 2: Got extremely carried away with the welcome message. Might have to change title to “Guestbook Text Adventure”
+Secret Guestbook Entries
+Entering the message storage function under if choice==“YES”
+We are using built in json module for Python that makes this easier for us to read / structured. We’re creating a folder within the code (.json file) which stores all entries inside. It can store data with labels, it’s flexible (by storing n messages) , and encrypt able. Good enough for our simple project. 
+**IMPORTANT NOTE** We’ll finish building everything now in the .py file, but once everything is running smoothly and finished, we will move the guestbook storage into a hidden or ignored folder so that the guestbook actually stays private. Will exclude data files from public repo later. 
+SO. After importing json and os, we put if not os.path.exists("messages") to check if the folder already exists. Just adding if not as a precaution to preclude any errors. Unsure if this is necessary but adding anyways. 
+We already collected the inputs, so we just store them in a dictionary called entry. No need to call input() again.
+(In entry never add punctuation after the last key-value pair.)
+     Question based on error: Why does the path need to be a string if it’s not visible output?
+     Remember in python file paths are always passed as strings (for OS to parse). 
+     Data first, then destination, then action.
