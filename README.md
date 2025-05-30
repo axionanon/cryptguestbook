@@ -1,1 +1,1 @@
-# cryptguestbook
+# Python Project: Hotel Secret Guestbook
