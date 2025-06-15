@@ -1,5 +1,7 @@
 # Python Project: Hotel Secret Guestbook
 
+*Working on a web version
+
 Objective
 
 A simple Python project demonstrating encryption, basic file handling, and message encoding/decoding. It mimics a "dead drop" system where users leave encrypted messages in a mysterious hotel guestbook. Only users who know the correct passphrase can decrypt and read the message.
