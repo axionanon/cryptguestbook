@@ -6,11 +6,11 @@ A simple Python project demonstrating encryption, basic file handling, and messa
 
 Features
 
-• Uses cryptography.fernet to securely encrypt and store messages.
-• Collects user’s name and a secret passphrase to store and decrypt messages.
-• Stores encrypted messages in a folder (secrets/) as JSON files, named by user.
-• Each message is encrypted with a passphrase, and users need the correct passphrase to decrypt.
-• Simulated typing effect using time.sleep. and basic python styling.
+• Uses cryptography.fernet to securely encrypt and store messages.<br>
+• Collects user’s name and a secret passphrase to store and decrypt messages.<br>
+• Stores encrypted messages in a folder (secrets/) as JSON files, named by user.<br>
+• Each message is encrypted with a passphrase, and users need the correct passphrase to decrypt.<br>
+• Simulated typing effect using time.sleep. and basic python styling.<br>
 
 Usage
 Download the Python file GUESTBOOK.py
