@@ -13,6 +13,7 @@ Features
 • Simulated typing effect using time.sleep. and basic python styling.<br>
 
 Usage
+
 Download the Python file GUESTBOOK.py
 Run it in your preferred IDE. It should automatically handle dependencies and prompt you for inputs.
 Follow the prompts to leave a message or decode one.
