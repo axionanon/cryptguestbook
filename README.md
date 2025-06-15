@@ -19,9 +19,7 @@ Run it in your preferred IDE. It should automatically handle dependencies and pr
 Follow the prompts to leave a message or decode one.
 *the files will be stores locally on your computer because this is not a web version*
 
-Requirements
-cryptography
-    
-colorama
-    
+Requirements <br>
+cryptography  <br> 
+colorama  <br>
 pyfiglet
