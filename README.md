@@ -18,8 +18,8 @@ Usage
 
 Download the Python file GUESTBOOK.py
 Run it in your preferred IDE. It should automatically handle dependencies and prompt you for inputs.
-Follow the prompts to leave a message or decode one.
-*the files will be stores locally on your computer because this is not a web version*
+Follow the prompts to leave a message or decode one. <br>
+** *the files will be stores locally on your computer because this is not a web version*
 
 Requirements <br>
 
