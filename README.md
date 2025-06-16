@@ -22,6 +22,7 @@ Follow the prompts to leave a message or decode one.
 *the files will be stores locally on your computer because this is not a web version*
 
 Requirements <br>
+
 cryptography  <br> 
 colorama  <br>
 pyfiglet
