@@ -19,7 +19,8 @@ Usage
 • Download the Python file GUESTBOOK.py <br> 
 • Run it in your preferred IDE. It should automatically handle dependencies and prompt you for inputs. <br>
 • Follow the prompts to leave a message or decode one. <br>
-** *the files will be stored locally on your computer because this is not a web version. you won't be able to see any entries other than your own.*
+** *the files will be stored locally on your computer because this is not a web version. <br>
+you won't be able to see any entries other than your own.*
 
 Requirements <br>
 
