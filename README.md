@@ -29,15 +29,16 @@ pyfiglet
 
 If you would like to play an interactive web version, begin here: 
 
-<i>Two words in one — a single name
-Point to a user, let’s start the game.
+<i>Two words in one — a single name <br>
+Point to a user, let’s start the game. <br>
 
-The first arrives when hands align, No sun remains, no church bells chime. The world is still, the hour late—
-A time which strikes long after eight.
+The first arrives when hands align, No sun remains, no church bells chime. The world is still, the hour late—<br>
+A time which strikes long after eight.<br>
 
-The second wears a cap, he works the floor, He guides the guests, guards lobby door. With a ding and he jumps near— Who stands in uniform right here?
+The second wears a cap, he works the floor, He guides the guests, guards lobby door.<br>
+With a ding and he jumps near— Who stands in uniform right here?<br>
 
-Where pictures linger and stories fade,
-Search where many squares are laid.</i>
+Where pictures linger and stories fade,<br>
+Search where many squares are laid.</i> <br>
 
 (Don't worry—your inputs are encrypted. Even I can't see them.)
