@@ -1,7 +1,5 @@
 # Python Project: Hotel Secret Guestbook
 
-*Working on a web version
-
 Objective
 
 A simple Python project demonstrating encryption, basic file handling, and message encoding/decoding. It mimics a "dead drop" system where users leave encrypted messages in a mysterious hotel guestbook. Only users who know the correct passphrase can decrypt and read the message.
@@ -27,3 +25,19 @@ Requirements <br>
 cryptography  
 colorama  
 pyfiglet
+
+
+If you would like to play an interactive web version, begin here: 
+
+<i>Two words in one — a single name
+Point to a user, let’s start the game.
+
+The first arrives when hands align, No sun remains, no church bells chime. The world is still, the hour late—
+A time which strikes long after eight.
+
+The second wears a cap, he works the floor, He guides the guests, guards lobby door. With a ding and he jumps near— Who stands in uniform right here?
+
+Where pictures linger and stories fade,
+Search where many squares are laid.</i>
+
+(Don't worry—your inputs are encrypted. Even I can't see them.)
